@@ -28,7 +28,11 @@ class LoginScreen extends StatelessWidget {
     return Container(
       height: 130,
       width: 130,
-      decoration: BoxDecoration,
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          //image: ,
+        ),
+      ),
     );
   }
 
